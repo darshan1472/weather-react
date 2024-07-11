@@ -5,7 +5,7 @@ const WeatherCard = ({ weather }) => {
   const getBackgroundImage = () => {
     if (!weather) return "";
     const main = weather.weather[0].main.toLowerCase();
-    if (main.includes("clouds")) return "url(/public/images/cloudy.jpg)";
+    if (main.includes("clouds")) return "url(./images/cloudy.jpg)";
     if (main.includes("drizzle") || main.includes("rain"))
       return "url(./images/rainy.jpg)";
     if (main.includes("clear")) return "url(./images/sunny.jpg)";
