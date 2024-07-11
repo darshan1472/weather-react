@@ -1,0 +1,27 @@
+.MuiContainer-root {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.MuiCard-root {
+  margin-top: 5px;
+
+}
+
+.MuiTypography-h3 {
+  text-align: center;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .MuiTypography-h3 {
+    font-size: 1.5rem;
+  }
+
+  .MuiContainer-root {
+    margin-top: 10px;
+    padding: 10px;
+  }
+}
